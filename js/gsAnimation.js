@@ -43,3 +43,15 @@ timeline.to(squareTimeline, 0.5, {
 timeline.to(squareTimeline, 0.3, {
   backgroundColor: "green"
 })
+
+//will pause the animation//
+// timeline.pause(); 
+
+//will play obviously//
+// timeline.play(); 
+
+//will seek to the first sec of the animation, useful for debugging long animations//
+// timeline.seek(1); 
+
+//will make the animation go faster(5) or slower(1), can also use (0.5) to go slower
+timeline.timeScale(1)
