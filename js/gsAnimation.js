@@ -10,12 +10,19 @@
 let squareTo = document.getElementById("squareTo");
 
 TweenMax.to(squareTo, 1, {
-  left: "50%"
+  left: "50%",
+  backgroundColor: "red",
+  borderRadius: "50%",
+  repeat: 2, //wil repeat twice
 })
+
 
 //square will move FROM where I specify it
 let squareFrom = document.getElementById("squareFrom");
 
 TweenMax.from(squareFrom, 1, {
-  left: "50%"
+  left: "50%",
+  backgroundColor: "green",
+  borderRadius: "50%",
+  repeat: -1, //-1 will repeat forever
 })
