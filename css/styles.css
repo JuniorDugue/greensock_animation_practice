@@ -1,5 +1,14 @@
-.square {
+.squareTo {
   background: green;
+  height: 250px;
+  left: 10%;
+  position: absolute;
+  top: 40%;
+  width: 250px;
+}
+
+.squareFrom {
+  background: red;
   height: 250px;
   left: 10%;
   position: absolute;
